@@ -34,7 +34,7 @@ The students edit this section to add their names, Uniandes emails, and specify 
 
 1. Santiago Gutierrez, s.gutierrezd23@uniandes.edu.co, 202121564
 2. Paulina Arrazola, p.arrazola@uniandes.edu.co, 202020631
-3. Natalia Ortega, n.ortegar@uniandes.edu.co, 201814519
+3. Natalia Ortega R, n.ortegar@uniandes.edu.co, 201814519
 
 [Back to top](#sample-sorts)
 
