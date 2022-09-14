@@ -29,6 +29,8 @@ import config as cf
 import time
 from DISClib.ADT import list as lt
 from DISClib.Algorithms.Sorting import shellsort as sa
+from DISClib.Algorithms.Sorting import mergesort as mer
+from DISClib.Algorithms.Sorting import quicksort as qck
 assert cf
 
 """
@@ -239,7 +241,7 @@ def sortBooks(catalog, size):
     # TODO completar los cambios del return en el sort para el lab 4
     sub_list = lt.subList(catalog['books'], 1, size)
     start_time = getTime()
-    sorted_list = sa.sort(sub_list, compareratings)
+    sorted_list = mer.sort(sub_list, compareratings)
     end_time = getTime()
     delta_time = deltaTime(start_time, end_time)
     return sorted_list, delta_time
